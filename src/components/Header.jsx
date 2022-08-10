@@ -7,6 +7,7 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
+import {AcademicCapIcon, ClipboardListIcon, ShoppingCartIcon, SparklesIcon, UsersIcon, AnnotationIcon} from '@heroicons/react/solid'
 
 function MobileNavLink({ href, children }) {
   return (
@@ -62,7 +63,7 @@ function MobileNavigation() {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <Popover.Overlay className="fixed inset-0 bg-slate-300/50" />
+          <Popover.Overlay className="fixed inset-0 bg-blue-100/20 backdrop-blur-md" />
         </Transition.Child>
         <Transition.Child
           as={Fragment}
@@ -75,11 +76,13 @@ function MobileNavigation() {
         >
           <Popover.Panel
             as="div"
-            className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
+            className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-lg bg-white p-8 text-lg tracking-tight font-regular font-display text-slate-900 shadow-xl ring-1 ring-slate-900/5"
           >
-            <MobileNavLink href="#features">Features</MobileNavLink>
-            <MobileNavLink href="#products">Products</MobileNavLink>
-            <MobileNavLink href="#pricing">Pricing</MobileNavLink>
+            <MobileNavLink href="#features"><div className="flex flex-row"><SparklesIcon className="h-8 w-8 text-blue-600"/><span className="text-xl font-light px-4 align-center">Features</span></div></MobileNavLink>
+            <MobileNavLink href="#features"><div className="flex flex-row"><ShoppingCartIcon className="h-8 w-8 text-blue-600"/><span className="text-xl px-4 align-center">Products</span></div></MobileNavLink>
+            <MobileNavLink href="#features"><div className="flex flex-row"><ClipboardListIcon className="h-8 w-8 text-blue-600"/><span className="text-xl px-4 truncatealign-center">Apply for listing</span></div></MobileNavLink>
+            <MobileNavLink href="#features"><div className="flex flex-row"><AnnotationIcon className="h-8 w-8 text-blue-600"/><span className="text-xl px-4 align-center">Testimonials</span></div></MobileNavLink>
+            <MobileNavLink href="#features"><div className="flex flex-row"><UsersIcon className="h-8 w-8 text-blue-600"/><span className="text-xl px-4 align-center">Team</span></div></MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
             <MobileNavLink href="/login">Sign in</MobileNavLink>
           </Popover.Panel>
@@ -91,28 +94,29 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="py-10">
+    <header className="py-4">
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
             <Link href="#" aria-label="Home">
               <Logo className="h-10 w-auto" />
             </Link>
-            <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="#features">Features</NavLink>
-              <NavLink href="#products">Products</NavLink>
-              <NavLink href="#pricing">Launch a product</NavLink>
+            <div className="hidden md:flex  md:gap-x-6">
+              <NavLink href="#features"><span className="font-display text-lg">Features</span></NavLink>
+              <NavLink href="#products"><span className="font-display text-lg">Products</span></NavLink>
+              <NavLink href="#pricing"><div className="flex flex-row"><h1 className="bg-blue-700 text-md font-semibold text-white py-1 px-2 rounded-lg mr-2">New</h1><span className="font-display text-lg">Apply for listing</span></div></NavLink>
+              <NavLink href="#team"><span className="font-display text-lg">Team</span></NavLink>
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <div className="hidden md:block">
-              <NavLink href="https://medium.com/@nous.systems/nous-initial-coin-offering-b36532febbf5">$NOUS Token</NavLink>
+              <a target="_blank" rel="noreferrer" className="font-display text-lg" href="https://medium.com/@nous.systems/nous-initial-coin-offering-b36532febbf5">$NOUS Token</a>
             </div>
-            <Button href="https://www.nous.fund" className="bg-blue-700">
-              <span>
-                Invest <span className="hidden lg:inline">now</span>
-              </span>
-            </Button>
+            <a href="https://www.nous.fund" target="_blank" rel="noreferrer" className="bg-gradient-to-bl from-blue-700 to-blue-900 rounded-lg text-xl font-display text-white py-2 px-3 hover:bg-blue-600">
+              
+                Connect <span className="hidden lg:inline">wallet</span>
+              
+            </a>
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
             </div>

@@ -29,7 +29,7 @@ export default function Home() {
         <CallToAction />
         <Testimonials />
         <Pricing />
-        
+        <Faqs/>
         <Team/>
       </main>
       <Footer />

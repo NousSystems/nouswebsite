@@ -103,7 +103,7 @@ export function Pricing() {
     >
       <Container>
         <div className="md:text-center">
-          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
+          <h2 className="font-display text-3xl tracking-tight text-white sm:text-6xl">
             <span className="relative whitespace-nowrap">
               <SwirlyDoodle className="absolute top-1/2 left-0 h-[1em] w-full fill-slate-600" />
               <span className="relative">Launch</span>

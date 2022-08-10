@@ -5,10 +5,10 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background.jpg'
-import screenshotExpenses from '@/images/screenshots/contracts2.png'
-import screenshotPayroll from '@/images/screenshots/digitalcontracts.png'
-import screenshotReporting from '@/images/screenshots/digitalcontracts.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import screenshotExpenses from '@/images/screenshots/portfolio.svg'
+import screenshotPayroll from '@/images/screenshots/digitalcontracts.svg'
+import screenshotReporting from '@/images/screenshots/marketplace.svg'
+import screenshotVatReturns from '@/images/screenshots/claim.svg'
 
 const features = [
   {

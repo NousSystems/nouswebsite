@@ -5,8 +5,8 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import screenshotContacts from '@/images/screenshots/ventureswebsite.png'
-import screenshotInventory from '@/images/screenshots/a1website.png'
-import screenshotProfitLoss from '@/images/screenshots/landing-bong.png'
+import screenshotInventory from '@/images/screenshots/a1website.svg'
+import screenshotProfitLoss from '@/images/screenshots/bond.svg'
 
 const features = [
   {
@@ -224,8 +224,8 @@ export function SecondaryFeatures() {
     >
       <Container>
         <div className="mx-auto max-w-4xl md:text-center">
-          <h2 className="font-display font-medium text-5xl tracking-tight text-green-500 sm:text-7xl">
-            <span className="text-blue-600">Bonds,</span><span className="text-purple-500"> funds,</span> ventures.
+          <h2 className="font-display font-medium text-5xl tracking-tight text-black sm:text-7xl">
+            <span className="text-neutral-800">Bonds,</span><span className="text-neutral-800"> funds,</span> ventures.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
             Diversify across a curated selection of high-quality investment opportunities.
