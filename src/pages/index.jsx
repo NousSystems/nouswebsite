@@ -18,7 +18,7 @@ export default function Home() {
         <title>Nous - Connecting global investors.</title>
         <meta
           name="description"
-          content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
+          content="The blockchain platform that helps you get your money right. Browse, invest, and trade - all in one."
         />
       </Head>
       <Header />
@@ -29,7 +29,7 @@ export default function Home() {
         <CallToAction />
         <Testimonials />
         <Pricing />
-        
+
         <Team/>
       </main>
       <Footer />
