@@ -34,9 +34,9 @@ export function Hero() {
       Browse, buy and trade digital investment contracts. 
       </p>
       <div className="mt-10 flex mx-8 flex-col sm:flex-row justify-center gap-y-6 gap-x-6">
-        <Button href="/register" className="rounded-lg font-display text-xl font-light">Get started</Button>
+        <Button href="https://www.nous.fund" className="rounded-lg font-display text-xl font-light">Get started</Button>
         <Button
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          href="https://discord.gg/nous"
           variant="outline"
           className="rounded-lg"
         >
