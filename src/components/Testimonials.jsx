@@ -23,7 +23,7 @@ const testimonials = [
         'The team and the concept really sold me on NOUS. I think our community would be extremely anxious to be a part of this project and learn more about this innovative project!',
       author: {
         name: 'Private Investor',
-        role: 'Director at Velocity Industries',
+        role: 'El Taco Finance',
         image: avatarImage4,
       },
     },
@@ -42,8 +42,8 @@ const testimonials = [
       content:
         'I had multiple conversations with the team and believe that NOUS has a great future. Our team is delighted to join',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
+        name: 'Hybrid Finance',
+        role: '',
         image: avatarImage4,
       },
     },
@@ -53,20 +53,21 @@ const testimonials = [
       content:
         'I participated in a Nous AMA and believe in the model and market place you are building.',
       author: {
-        name: 'Sheryl Berge',
-        role: 'CEO at Lynch LLC',
+        name: 'Private Investor',
+        role: '',
         image: avatarImage1,
       },
     },
     {
       content:
-        'I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.',
+        'Ability to be part of DeFi but with the professional structure of an institution. Opens up the ability to allow more experienced and sophisticated people manage my crypto.',
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
-        image: avatarImage4,
+        name: 'Private Investor',
+        role: '',
+        image: avatarImage1,
       },
     },
+    
   ],
 ]
 
@@ -87,7 +88,7 @@ export function Testimonials() {
     >
       <Container>
         <div className="mx-auto max-w-4xl md:text-center">
-          <h2 className="font-display font-medium leading-[3rem] sm:leading-normal text-4xl tracking-tight text-slate-900 sm:text-6xl">
+          <h2 className="font-display font-medium leading-[3rem] sm:leading-normal text-5xl tracking-tight text-slate-900 sm:text-6xl">
             Loved by investors, <span className="text-blue-700">worldwide.</span>
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
@@ -119,16 +120,16 @@ export function Testimonials() {
                             {testimonial.author.role}
                           </div>
                         </div>
-                        <div className="overflow-hidden rounded-full bg-slate-50">
-                          {/* <Image
+                        {/* <div className="overflow-hidden rounded-full bg-slate-50">
+                           <Image
                             className="h-14 w-14 object-cover"
                             src={testimonial.author.image}
                             alt=""
                             width={56}
                             height={56}
-                          /> */}
-                        </div>
-                      </figcaption>
+                          /> 
+                        </div> */}
+                          </figcaption>
                     </figure>
                   </li>
                 ))}

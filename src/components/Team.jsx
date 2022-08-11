@@ -68,22 +68,22 @@ const people = [
         name: 'Henry Wilson',
         role: 'Head of Communications',
         imageUrl: henry,
-        twitterUrl: 'https://www.twitter.com/0xTatruso',
-        linkedinUrl: '#',
+        twitterUrl: '',
+        linkedinUrl: 'https://www.linkedin.com/in/henry-wilson-7508aa1a6/',
       },
       {
         name: 'Rinor Restelica',
         role: 'Head of Growth',
         imageUrl: rinor,
-        twitterUrl: 'https://www.twitter.com/0xTatruso',
-        linkedinUrl: '#',
+        twitterUrl: 'https://twitter.com/rinor_777',
+        linkedinUrl: 'https://www.linkedin.com/in/rinor-restelica/',
       },
       {
         name: 'Ylli Bilcaj',
         role: 'Head of Community',
         imageUrl: ylli,
-        twitterUrl: 'https://www.twitter.com/0xTatruso',
-        linkedinUrl: '#',
+        twitterUrl: 'https://twitter.com/YBicaj',
+        linkedinUrl: 'https://www.linkedin.com/in/ylli-bicaj-034321201/',
       },
     // More people...
   ]

@@ -71,8 +71,8 @@ export function PrimaryFeatures() {
       />
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
-          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-6xl">
-            An open marketplace for investment.
+          <h2 className="font-display text-5xl tracking-tight text-white sm:text-4xl md:text-6xl">
+            A web3 marketplace <span className="block sm:inline">for investment.</span>
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
             We&apos;re changing the way people invest. Access your investments at anytime, anywhere and invest directly in projects that appeal to you.

@@ -84,7 +84,7 @@ function MobileNavigation() {
             <MobileNavLink href="#features"><div className="flex flex-row"><AnnotationIcon className="h-8 w-8 text-blue-600"/><span className="text-xl px-4 align-center">Testimonials</span></div></MobileNavLink>
             <MobileNavLink href="#features"><div className="flex flex-row"><UsersIcon className="h-8 w-8 text-blue-600"/><span className="text-xl px-4 align-center">Team</span></div></MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
-            <MobileNavLink href="/login">Sign in</MobileNavLink>
+            <Link href="https://www.nous.fund" className="bg-gradient-to-bl from-blue-700 to-blue-900 rounded-lg mx-8 text-center text-xl font-display mt-8 text-white py-2 px-3 my-4 hover:bg-blue-600">Launch marketplace</Link>
           </Popover.Panel>
         </Transition.Child>
       </Transition.Root>
@@ -112,7 +112,7 @@ export function Header() {
             <div className="hidden md:block">
               <a target="_blank" rel="noreferrer" className="font-display text-lg" href="https://medium.com/@nous.systems/nous-initial-coin-offering-b36532febbf5">$NOUS Token</a>
             </div>
-            <a href="https://www.nous.fund" target="_blank" rel="noreferrer" className="bg-gradient-to-bl from-blue-700 to-blue-900 rounded-lg text-xl font-display text-white py-2 px-3 hover:bg-blue-600">
+            <a href="https://www.nous.fund" target="_blank" rel="noreferrer" className="bg-gradient-to-bl from-blue-700 to-blue-900 rounded-lg text-xl font-display text-white py-1 sm:py-2 px-3 hover:bg-blue-600">
               
                 Connect <span className="hidden lg:inline">wallet</span>
               
